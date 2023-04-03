@@ -15,27 +15,30 @@ header {
   border-radius: 10px;
 }
 
-.question_box {
-  border: solid 3px;
-  margin-top: 10px;
-  padding: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-radius: 10px;
+.profile_picture {
+  background-color: burlywood;
+  border-radius: 50%;
+}
+
+figure {
   position: relative;
 }
-
-.marked {
+figcaption {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 20px;
+  top: 38px;
+  right: 40px;
 }
 
-.answer-button {
-  width: 70%;
-  margin: 20px 0px 20px 0px;
+p {
+  padding: none;
+  margin: none;
+  
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+  background-color: lightblue;
 }
 
 footer {
@@ -49,11 +52,11 @@ footer {
   position: sticky;
 }
 
-.home{
+.marked_footer {
+  width: 50px;
+}
+
+.profile {
   background-color: red;
 }
 
-.marked_footer {
- padding: 1px;
- width: 50px;
-}

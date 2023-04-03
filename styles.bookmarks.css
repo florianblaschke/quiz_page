@@ -56,4 +56,5 @@ footer {
 .marked_footer {
  padding: 1px;
  width: 50px;
+ background-color: red;
 }

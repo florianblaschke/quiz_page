@@ -1,0 +1,38 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  padding: 20px;
+}
+
+header {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;  
+}
+
+.question_box {
+  border: solid 3px;
+  margin-top: 10px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+.answer-button {
+  width: 70%;
+  margin: 20px 0px 20px 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  margin-top: 10px;
+  height: 50px;
+}

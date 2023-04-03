@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 body {
   padding: 20px;
@@ -11,7 +11,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;  
+  height: 50px;
+  border-radius: 10px;
 }
 
 .question_box {
@@ -21,7 +22,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: space-evenly;
+  border-radius: 10px;
+  position: relative;
+}
+
+.marked {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
 }
 
 .answer-button {
@@ -35,4 +44,11 @@ footer {
   background-color: blue;
   margin-top: 10px;
   height: 50px;
+  border-radius: 10px;
+  position: relative;
+  position: sticky;
+}
+
+.marked_footer {
+ padding: 1px;
 }

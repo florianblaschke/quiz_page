@@ -1,13 +1,20 @@
 * {
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 body {
   padding: 20px;
+  background-color:rgb(255,248,248);
+}
+
+p {
+  font-weight: bold;
 }
 
 header {
-  background-color: blue;
+  background-color: rgb(129,193,231);
+  color: rgb(255,248,248);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +22,18 @@ header {
   border-radius: 10px;
 }
 
+button {
+  background-color: rgb(196,203,255);
+  border-color:rgb(255,248,248);
+  border-style: solid;
+  border-radius: 5px;
+  color:  rgb(255,248,248);
+  padding: 10px;
+}
+
 .question_box {
-  border: solid 3px;
+  background-color: rgb(196,223,225);
+  color: rgb(255,248,248);
   margin-top: 10px;
   padding: 15px;
   display: flex;
@@ -24,6 +41,10 @@ header {
   justify-content: center;
   border-radius: 10px;
   position: relative;
+}
+
+.option {
+ margin: 0px 5px 0px 5px;
 }
 
 .marked {
@@ -41,19 +62,20 @@ header {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: blue;
+  background-color: rgb(129,193,231);
   margin-top: 10px;
   height: 50px;
   border-radius: 10px;
-  position: relative;
-  position: sticky;
+  position: fixed;
+  bottom: 0px;
+  width: 92%;
 }
 
 .home{
-  background-color: red;
+  background-color: rgb(196,203,255);
 }
 
 .marked_footer {
- padding: 1px;
+ padding: 3px;
  width: 50px;
 }

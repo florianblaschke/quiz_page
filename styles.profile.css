@@ -1,13 +1,16 @@
 * {
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 body {
   padding: 20px;
+  background-color:rgb(255,248,248);
 }
 
 header {
-  background-color: blue;
+  background-color:  rgb(128, 236, 217);
+  color: rgb(255,248,248);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +19,7 @@ header {
 }
 
 .profile_picture {
-  background-color: burlywood;
+  background-color: rgb(128, 236, 217);
   border-radius: 50%;
 }
 
@@ -44,12 +47,15 @@ article {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: blue;
+  background-color: rgb(128, 236, 217);
   margin-top: 10px;
   height: 50px;
   border-radius: 10px;
   position: relative;
-  position: sticky;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  right: 5px;
 }
 
 .marked_footer {
@@ -57,6 +63,6 @@ footer {
 }
 
 .profile {
-  background-color: red;
+  background-color: rgb(196,203,255);
 }
 

@@ -41,7 +41,11 @@ p {
 article {
   display: flex;
   flex-flow: column;
-  background-color: lightblue;
+  margin: 50px 0px 50px 0px;
+}
+
+ul {
+  list-style: none;
 }
 
 footer {
@@ -53,7 +57,7 @@ footer {
   border-radius: 10px;
   position: fixed;
   bottom: 0px;
-  width: 92%;
+  width: 100%;
 }
 
 .marked_footer {

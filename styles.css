@@ -72,11 +72,41 @@ footer {
   width: 100%;
 }
 
-.home{
+.marked-current{
   background-color: rgb(196,203,255);
 }
 
 .marked_footer {
  padding: 3px;
  width: 50px;
+}
+
+.profile_picture {
+  background-color: rgb(128, 236, 217);
+  border-radius: 50%;
+}
+
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  top: 38px;
+  right: 40px;
+}
+
+p {
+  padding: none;
+  margin: none;
+  
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+  margin: 50px 0px 50px 0px;
+}
+
+ul {
+  list-style: none;
 }

@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.bookmarks.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js" defer></script>
   <title>Bookmarked</title>
 </head>
 <body>
@@ -44,10 +45,20 @@
       <button class="option">#html</button><button class="option">#flexbox</button><button class="option">#css</button>
     </div>
   </div>
+
   <footer>
-    <a href="index.html"><img alt="home" src="images/icons8-home-page-48.png"/></a>
-    <a href="bookmarks.html"><img class="marked_footer" alt="marked_footer" src="images/icons8-bookmarked-document-64.png"/></a>
-    <a class="profile" href="profile.html"><img alt="profile" src="images/icons8-user-48.png"></footer></a>
+    <a data-js="home" class="home" href="index.html"
+    ><img alt="home" src="images/icons8-home-page-48.png"
+  /></a>
+  <a data-js="bookmark" href="bookmarks.html">
+    <img
+      class="marked_footer"
+      alt="marked_footer"
+      src="images/icons8-bookmarked-document-64.png"/>
+    </a>
+  <a data-js="profile" class="profile" href="profile.html">
+    <img alt="profile" src="images/icons8-user-48.png"/>
+  </a>
   </footer>
   </body>
 </html>

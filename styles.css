@@ -19,7 +19,11 @@ header {
   justify-content: center;
   align-items: center;
   height: 50px;
+  width: 100%;
+  position: sticky;
   border-radius: 10px;
+  z-index: 1;
+  top: 20px;
 }
 
 button {

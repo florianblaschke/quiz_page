@@ -8,11 +8,12 @@
     <script src="javascript.js" defer></script>
     <title>Quiz App</title>
   </head>
-  <body>
+  <body data-js="body">
     <header><h1>Quiz App</h1></header>
     <div class="question_box">
       <img
         class="marked"
+        data-js="marked"
         src="images/icons8-bookmark-filled.png"
         alt="marked"
       />
@@ -25,55 +26,23 @@
       </div>
     </div>
 
-    <div class="question_box">
-      <img class="marked" src="images/icons8-bookmark-48.png" alt="marked" />
-      <p>What property flips the axes in flexbox?</p>
-      <button class="answer-button">Show Answer</button>
-      <div class="answer-line">
-        <button class="option">#html</button
-        ><button class="option">#flexbox</button
-        ><button class="option">#css</button>
-      </div>
-    </div>
-
-    <div class="question_box">
-      <img
-        class="marked"
-        src="images/icons8-bookmark-filled.png"
-        alt="marked"
-      />
-      <p>What property flips the axes in flexbox?</p>
-      <button class="answer-button">Show Answer</button>
-      <div class="answer-line">
-        <button class="option">#html</button
-        ><button class="option">#flexbox</button
-        ><button class="option">#css</button>
-      </div>
-    </div>
-
-    <div class="question_box">
-      <img class="marked" src="images/icons8-bookmark-48.png" alt="marked" />
-      <p>What property flips the axes in flexbox?</p>
-      <button class="answer-button">Show Answer</button>
-      <div class="answer-line">
-        <button class="option">#html</button
-        ><button class="option">#flexbox</button
-        ><button class="option">#css</button>
-      </div>
-    </div>
+    
     <footer>
-      <a data-js="home" href="index.html"
-      ><img alt="home" src="images/icons8-home-page-48.png"
-    /></a>
-    <a data-js="bookmark" href="bookmarks.html">
-      <img
-        class="marked_footer"
-        alt="marked_footer"
-        src="images/icons8-bookmarked-document-64.png"/>
-      </a>
-    <a data-js="profile" class="profile" href="profile.html">
-      <img alt="profile" src="images/icons8-user-48.png"/>
-    </a>
+      <div class="marked-current" data-js="home">
+        <a href="index.html"
+          ><img src="images/icons8-home-page-48.png" alt="home-button"
+        /></a>
+      </div>
+      <div data-js="bookmark">
+        <a href="bookmarks.html"
+          ><img src="images/icons8-bookmark-48.png" alt="bookmark"
+        /></a>
+      </div>
+      <div data-js="profile">
+        <a href="profile.html"
+          ><img src="images/icons8-user-48.png" alt=""
+        /></a>
+      </div>
     </footer>
   </body>
 </html>

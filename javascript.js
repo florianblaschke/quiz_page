@@ -1,10 +1,13 @@
+console.clear();
 
-const home = document.querySelector('[data-js="home"]');
+const marked = document.querySelector('[data-js="marked"]');
 
-const bookmark = document.querySelector ('[data-js="bookmark"]');
+const bookmark = document.querySelector('[data-js="bookmark"]');
 
-const profile = document.querySelector ('[data-js="profile"]');
+const profile = document.querySelector('[data-js="profile"]');
 
-home.addEventListener("click", () => {
-  home.classList.add("marked-current");
+const bodyElement = document.querySelector('[data-js="body"]')
+
+marked.addEventListener("click", () => {
+  marked.classList.toggle("marked-current");
 });
